@@ -1,12 +1,10 @@
-# import libraries
 from matplotlib import pyplot as plt
 from matplotlib import style
 import numpy as np
 import csv
 import sys
 
-# constant for running average filter
-filt = 10
+filt = 7
 
 def dependencies_for_freezing():
     import matplotlib.numerix
